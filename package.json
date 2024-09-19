@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.15.7"
+    "astro": "^4.15.7",
+    "jekyll": "^3.0.0-beta1"
   }
 }
