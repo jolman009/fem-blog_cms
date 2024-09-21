@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Inter', sans-serif;
-    src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf');
+    font-family: "Kumbh Sans", sans-serif;
+    src: url('../public/fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf format('ttf');
     font-weight: 400, 700, 900;
     font-display: swap; 
 }   
@@ -18,7 +18,7 @@
 
    --clr-accent-400: var(--clr-orange-400);
 
-   --ff-primary: 'Inter', sans-serif;
+   --ff-primary: "Kumbh Sans", sans-serif;
 
     --fw-regular: 400;
     --fw-bold: 700;
@@ -106,16 +106,16 @@ header, footer {
     }
 }
 
-.three-columns {
+.three-columns  {
     display: grid;
     gap: 1rem;
 
     @container (width > 900px) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 > .span-2 {
-    grid-column: span 2;
+    grid-column: span 1;
     }
 }
 
@@ -131,20 +131,20 @@ header, footer {
 
 .accent-color {
     color: var(--clr-accent-400);
-    font-size: var(--fs-700);
+    font-size: var(--fs-900);
 }
 
 .heading-color {
-    color: var(--clr-neutral-100);
+    color: var(--clr-neutral-400);
 }
 
 .inverted {
-    --clr-heading: var(--clr-neutral-100);
+    --clr-heading: var(--clr-neutral-600);
     --clr-body: var(--clr-neutral-400);
-    --clr-accent-400: var(--clr-yellow-400);
+    --clr-accent-400: var(--primary-color);
 
     padding: 2rem;
-    background-color: var(--clr-neutral-800); 
+    background-color: var(--clr-neutral-200); 
 }
 
 p {

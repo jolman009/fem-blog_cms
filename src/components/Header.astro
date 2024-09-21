@@ -15,9 +15,9 @@ import { navigate } from "astro:transitions/client";
 
 <header>
     <a href="#main-content" class="skip-to-main">Skip to main content</a>
-    <h1 class="visually-hidden">The W.</h1>
+   
     <a href="/" class="logo">
-        <img src="/images/logo.svg" alt="The W."/>
+        <img src="/images2/logo.svg" alt="sneakers"/>
     </a>
 
     <button aria-controls="primary-nav" aria-expanded="false">
@@ -28,11 +28,11 @@ import { navigate } from "astro:transitions/client";
 
     <nav id="primary-nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">New</a></li>
-            <li><a href="/">Popular</a></li>
-            <li><a href="/">Trending</a></li>
-            <li><a href="/">Categories</a></li>
+            <li><a href="/">Collections</a></li>
+            <li><a href="/">Men</a></li>
+            <li><a href="/">Women</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
         </ul>
     </nav>
 </header>   
@@ -41,8 +41,9 @@ import { navigate } from "astro:transitions/client";
 <style>
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content:left;
         align-items: center;
+        margin:0;
 
         margin-block: 
             clamp(1.5rem, 5vmax, 5rem)
@@ -51,7 +52,7 @@ import { navigate } from "astro:transitions/client";
 
     ul {
         list-style: none;
-        margin: 0;
+        margin-left: 50px;
         padding: 0;
         display: flex;
         gap: 1rem;
